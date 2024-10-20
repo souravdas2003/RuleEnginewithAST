@@ -60,9 +60,7 @@ rule1
 ### Expected Output:
 When you submit the rule, the backend will store this rule as an Abstract Syntax Tree (AST), and you will receive a message like:
 
-{
   "message": "Rule created successfully!"
-}
 
 ### 2. Evaluate Rule
 
@@ -73,7 +71,6 @@ rule1
 ### Data (as JSON):
 
 json
-
 {
   "age": 35,
   "department": "Sales",
@@ -82,8 +79,5 @@ json
 }
 ### Expected Output:
 The rule engine will evaluate the provided data against the created rule and return:
-
-{
   "result": true
-}
 This is because the user satisfies the condition (age > 30 AND department = 'Sales').
