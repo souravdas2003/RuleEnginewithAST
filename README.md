@@ -26,7 +26,7 @@ This is a rule engine application that evaluates user eligibility based on vario
     
 2. Navigate to the project directory:
     ```bash
-    cd rule-engine
+    cd RuleEnginewithAST
     ```
 
 3. Install dependencies:
