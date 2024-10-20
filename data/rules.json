@@ -1,0 +1,28 @@
+{
+  "rule1": {
+    "type": "operator",
+    "left": {
+      "type": "operand",
+      "left": {
+        "type": "operand",
+        "left": null,
+        "right": null,
+        "value": ">"
+      },
+      "right": {
+        "type": "operand",
+        "left": null,
+        "right": null,
+        "value": "30"
+      },
+      "value": "age"
+    },
+    "right": {
+      "type": "operand",
+      "left": null,
+      "right": null,
+      "value": "Sales"
+    },
+    "value": "AND"
+  }
+}
