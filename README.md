@@ -54,7 +54,7 @@ You can test the application with sample input and output as shown below:
 
 - **Rule String**: 
   
-  (age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')
+ (age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing') AND salary > 50000
 ### Rule Name:
 rule1
 ### Expected Output:
@@ -72,12 +72,12 @@ rule1
 
 json
 {
-  "age": 35,
-  "department": "Sales",
-  "salary": 60000,
-  "experience": 5
+  "age": 24,
+  "department": "Marketing",
+  "salary": 48000,
+  "experience": 3
 }
 ### Expected Output:
 The rule engine will evaluate the provided data against the created rule and return:
-  "result": true
-This is because the user satisfies the condition (age > 30 AND department = 'Sales').
+  "result": false
+This is because the user doesn't satisfy the salary condition.
